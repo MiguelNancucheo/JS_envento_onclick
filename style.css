@@ -1,0 +1,130 @@
+/* estilos */
+* {
+    margin: 0px;
+    padding: 0px; 
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Contenedores */
+.cont_header {
+    background-color: gray;
+    margin: 0px 30px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center; 
+}
+
+.cont_main {
+    margin: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.col_izq {
+    flex: 2;
+}
+
+.col_der {
+    flex: 1;
+}
+.cont_tarjetas,  .cont_definicion {
+    border: 3px solid grey;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+}
+
+.cont_tarjetas {
+    margin-right: 5px;
+    display: flex; 
+    align-items: center;
+}
+.cont_definicion {
+    margin-left: 5px;
+}
+
+.id_tarj {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.desc_tarj {
+    margin-left: 20px;
+    flex: 3;
+}
+
+/* botones */
+button {
+    cursor: pointer;
+}
+
+.boton_azul, .boton_amarillo, .boton_verde {
+    box-shadow: 5px 5px 5px black;
+    padding: 10px 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.boton_azul {
+    background-color: blue;
+    color: white;
+    width: 120px;
+}
+
+.boton_amarillo {
+    background-color: #e5cd61;
+    color: black;
+    width: 100%;
+}
+
+.boton_verde {
+    background-color:forestgreen;
+    color: black;
+    width: 100%;
+}
+
+/* efecto texto */
+.cursiva {
+    font-style: italic ;
+}
+
+.negrita {
+    font-style:oblique ;
+}
+
+h1  {
+    font-size: 35px;
+}
+
+.tit_tarjeta {
+    font-size: 32px;
+    padding-bottom: 10px;
+
+}
+.subtit_tarjeta {
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+
+.plural_tarjeta {
+    font-size: 23px;
+    padding-bottom: 5px;
+}
+
+.tit_definicion {
+    font-size: 27px;
+    padding-bottom: 10px;
+}
+
+p {
+    font-size: 20px;
+}
+
+input {
+    border: 2px solid black;
+    color: darkslategray;
+    padding-left: 5px ;
+    width: 200px;
+}
